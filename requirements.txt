@@ -1,0 +1,20 @@
+# requirements.txt
+# YouTube to Article & PDF Generator
+# Install all dependencies with: pip install -r requirements.txt
+
+# Streamlit — web UI framework
+streamlit>=1.35.0
+
+# YouTube caption/transcript downloader
+# Pinned to avoid breaking changes in newer versions
+youtube-transcript-api>=0.6.1,<1.0.0
+
+# HTTP requests — used to call the Gemini REST API
+requests>=2.31.0
+
+# Keyword extraction using RAKE algorithm
+rake-nltk>=1.0.6
+nltk>=3.8.1
+
+# PDF generation
+reportlab>=4.1.0
